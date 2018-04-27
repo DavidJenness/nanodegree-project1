@@ -1,0 +1,26 @@
+h1 {
+    color: black;
+}
+hr {
+    border-width: 1px;
+}
+header {
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+
+.logo {
+    padding: 5px;
+}
+.nametag {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    float: right;
+}
+
+.projectShowcase {
+    text-align: center;
+}
