@@ -15,7 +15,8 @@ header {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
 }
 
 .logo {
@@ -28,6 +29,8 @@ footer {
 
 .projectShowcase {
     text-align: center;
+    width: 33%;
+    background-color: white;
 }
 
 .featured {

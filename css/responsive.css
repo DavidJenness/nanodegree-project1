@@ -1,0 +1,9 @@
+@media all and (max-width: 660px) {
+.projectShowcase {
+    width:100%;
+} 
+.projectPic img {
+    width: 80%;
+    height: auto;
+}
+}
