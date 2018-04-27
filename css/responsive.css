@@ -6,4 +6,28 @@
         width: 80%;
         height: auto;
     }
+    .nametag {
+        width: 100%;
+        text-align: center;
+    }
+    header {
+        justify-content: center;
+    }
+    .nametag h1 {
+        display: none;
+    }
+    .nametag h3 {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .logo img {
+        width: 100px;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .featured {
+        text-align: center;
+    }
 }
