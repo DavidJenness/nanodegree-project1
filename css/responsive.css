@@ -36,6 +36,7 @@
     }
     .socialMedia {
         justify-content: center;
+        float: none;
     }
 }
 

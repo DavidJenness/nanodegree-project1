@@ -83,8 +83,6 @@ footer {
     height: 200px;
 }
 
-
-
 .projectPic img:hover {
     -webkit-animation: shakePic .5s infinite;
     animation: shakePic .5s infinite;
@@ -93,6 +91,7 @@ footer {
 .socialMedia {
     display: flex;
     flex-wrap: wrap;
+    float: right;
 }
 
 .socialMedia img {
@@ -101,8 +100,8 @@ footer {
     padding: 5px;
 }
 
-
 /* Animations */
+
 @-webkit-keyframes shakePic {
     0% {
         -webkit-transform: rotate(2deg);
