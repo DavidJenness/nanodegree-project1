@@ -63,7 +63,6 @@ footer {
 .hero img {
     width: 100%;
     margin: auto;
-
 }
 
 .projectName {
@@ -88,6 +87,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
+
 .socialMedia img {
     width: 30px;
     height: 30px;
