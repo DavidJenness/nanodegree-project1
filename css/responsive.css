@@ -37,6 +37,10 @@
     .featured {
         text-align: center;
     }
+
+    .socialMedia {
+        justify-content: center;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -50,5 +54,6 @@
     .projectPic img {
         width: 350px;
         height: auto;
+        transition: left 5.5s; 
     }
 }

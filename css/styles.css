@@ -83,3 +83,13 @@ footer {
     width: 200px;
     height: 200px;
 }
+
+.socialMedia {
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialMedia img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
