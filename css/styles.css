@@ -1,13 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
     color: black;
 }
+
 hr {
     border-width: 1px;
     color: #02b3e4;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,12 +19,12 @@ header {
 footer {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
 }
 
 .logo {
     padding: 5px;
 }
+
 .nametag {
     text-align: right;
     padding: 5px;
