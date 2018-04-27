@@ -50,6 +50,7 @@ footer {
     text-align: center;
     width: 33%;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .featured {
@@ -59,11 +60,10 @@ footer {
     padding-bottom: 15px;
 }
 
-.hero {
-    background-size: cover;
-    height: 350px;
-    background-repeat: no-repeat;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Sugarfoot_on_Drums.jpg');
+.hero img {
+    width: 100%;
+    margin: auto;
+
 }
 
 .projectName {
@@ -73,4 +73,13 @@ footer {
 
 .projectDescription {
     padding-bottom: 7px;
+}
+
+.projectPic img {
+    border: black;
+    border-radius: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    width: 200px;
+    height: 200px;
 }

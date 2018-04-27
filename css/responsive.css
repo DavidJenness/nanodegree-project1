@@ -2,9 +2,11 @@
     .projectShowcase {
         width: 100%;
     }
+
     .projectPic img {
         width: 80%;
         height: auto;
+        
     }
     .nametag {
         width: 100%;
@@ -29,5 +31,19 @@
     }
     .featured {
         text-align: center;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    body {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projectPic img {
+        width: 350px;
+        height: auto;
     }
 }
