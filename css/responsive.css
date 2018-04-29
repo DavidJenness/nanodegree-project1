@@ -44,7 +44,8 @@
         ;
     }
     .skillButton {
-        width: 75px;
+        width: 85px;
+        font-size: 14px;
     }
     .leftString, .rightString {
         color: Black;
@@ -62,5 +63,9 @@
         height: auto;
         max-width: 350px;
         transition: left 5.5s;
+    }
+
+    .skillButton {
+        font-size: 34px;
     }
 }
