@@ -3,6 +3,7 @@
         width: 100%;
     }
     .projectPic img {
+        max-width: 100%;
         width: 80%;
         height: auto;
     }
@@ -38,6 +39,17 @@
         justify-content: center;
         float: none;
     }
+    .skillButtons {
+        width: 75px;
+        ;
+    }
+    .skillButton {
+        width: 75px;
+    }
+    .leftString, .rightString {
+        color: Black;
+        font-size: 6vw;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -47,8 +59,8 @@
         margin-right: auto;
     }
     .projectPic img {
-        width: 350px;
         height: auto;
+        max-width: 350px;
         transition: left 5.5s;
     }
 }

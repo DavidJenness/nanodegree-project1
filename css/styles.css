@@ -60,10 +60,6 @@ footer {
     padding-bottom: 15px;
 }
 
-.hero img {
-    width: 100%;
-    margin: auto;
-}
 
 .projectName {
     font-size: 1.3em;
@@ -79,8 +75,8 @@ footer {
     border-radius: 2px;
     border-style: solid;
     border-radius: 25px;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    height: auto;
 }
 
 .projectPic img:hover {
@@ -98,6 +94,76 @@ footer {
     width: 30px;
     height: 30px;
     padding: 5px;
+}
+
+/* Styles for my Animated Header */
+
+.bannerContainer {
+    display: flex;
+    flex-flow: wrap;
+    height: 250px;
+    overflow: hidden;
+    justify-content: center;
+    background-color: linen;
+}
+
+.leftString, .rightString {
+    color: Black;
+    font-size: 4vw;
+    position: relative;
+    top: 50%;
+}
+
+.leftString {
+    float: right;
+}
+
+.rightString {
+    float: left;
+}
+
+.skillButtons {
+    position: relative;
+    top: -50%;
+    height: auto;
+    z-index: 20;
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Used http://cssanimate.com/ to help with animation */
+    animation: animationFrames linear 12s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: animationFrames linear 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: animationFrames linear 12s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: animationFrames linear 12s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: animationFrames linear 12s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+}
+
+.skillButton {
+    z-index: 40;
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    font-size: 2vw;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    width: 165px;
+}
+
+.skillButton:hover {
+    background-color: #008CBA;
+    color: white;
 }
 
 /* Animations */
@@ -123,5 +189,67 @@ footer {
     }
     100% {
         -webkit-transform: rotate(2deg);
+    }
+}
+
+/* Used http://cssanimate.com/ to help with animation */
+
+@keyframes animationFrames {
+    0% {
+        transform: translate(0px, 300px);
+    }
+    50% {
+        transform: translate(0px, -200px);
+    }
+    100% {
+        transform: translate(0px, -400px);
+    }
+}
+
+@-moz-keyframes animationFrames {
+    0% {
+        -moz-transform: translate(0px, 300px);
+    }
+    50% {
+        -moz-transform: translate(0px, -200px);
+    }
+    100% {
+        -moz-transform: translate(0px, -400px);
+    }
+}
+
+@-webkit-keyframes animationFrames {
+    0% {
+        -webkit-transform: translate(0px, 300px);
+    }
+    50% {
+        -webkit-transform: translate(0px, -200px);
+    }
+    100% {
+        -webkit-transform: translate(0px, -400px);
+    }
+}
+
+@-o-keyframes animationFrames {
+    0% {
+        -o-transform: translate(0px, 300px);
+    }
+    50% {
+        -o-transform: translate(0px, -200px);
+    }
+    100% {
+        -o-transform: translate(0px, -400px);
+    }
+}
+
+@-ms-keyframes animationFrames {
+    0% {
+        -ms-transform: translate(0px, 300px);
+    }
+    50% {
+        -ms-transform: translate(0px, -200px);
+    }
+    100% {
+        -ms-transform: translate(0px, -200px);
     }
 }
