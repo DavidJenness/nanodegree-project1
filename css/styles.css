@@ -148,6 +148,10 @@ footer {
     -ms-transform-origin: 50% 50%;
 }
 
+.skillButtons:hover {
+    animation-play-state: paused;
+}
+
 .skillButton {
     z-index: 40;
     color: #0099CC;
@@ -164,6 +168,7 @@ footer {
 .skillButton:hover {
     background-color: #008CBA;
     color: white;
+    
 }
 
 /* Animations */
