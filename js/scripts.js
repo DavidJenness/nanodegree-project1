@@ -7,15 +7,25 @@ $(document).ready(function () {
 
         switch (title) {
             case "Database":
-                $("#leftProjectName").text("Database Dev");
-                $("#centerProjectName").text("Database Dev");
-                $("#rightProjectName").text("Database Dev");
+                $("#leftProjectName").text("SQL Server");
+                $("#centerProjectName").text("Microsoft Access");
+                $("#rightProjectName").text("Database Overview");
 
                 $("#leftPic").attr("src", "img/left/sql.png");
-                $("#centerPic").attr("src", "img/center/iOS2.png");
-                $("#rightPic").attr("src", "img/right/xcode.jpg");
+                $("#centerPic").attr("src", "img/center/database2.png");
+                $("#rightPic").attr("src", "img/right/database3.jpg");
+
+                $("#leftPicLink").attr("href", "/overview.html#Database")
+                $("#leftDescription").attr("href", "/overview.html#Database")
+                $("#leftDescription").text("View SQL Project")
+
+                $("#centerPicLink").attr("href", "/overview.html#Database")
+                $("#centerDescription").attr("href", "/overview.html#Database")
+                $("#centerDescription").text("View Access Project")
 
                 $("#rightPicLink").attr("href", "/overview.html#Database")
+                $("#rightDescription").attr("href", "/overview.html#Database")
+                $("#rightDescription").text("Database Overview")
 
                 break;
             case 'iOS':
@@ -31,20 +41,47 @@ $(document).ready(function () {
                 $("#leftDescription").attr("href", "https://itunes.apple.com/us/app/redcritter/id791210761?mt=8")
                 $("#leftDescription").text("View iOS App")
 
+                $("#centerPicLink").attr("href", "https://itunes.apple.com/us/app/redcritter-teacher/id950017904?mt=8")
+                $("#centerDescription").attr("href", "https://itunes.apple.com/us/app/redcritter-teacher/id950017904?mt=8")
+                $("#centerDescription").text("View iOS App")
+
                 $("#rightPicLink").attr("href", "/overview.html#iOS")
+                $("#rightDescription").attr("href", "/overview.html#iOS")
+                $("#rightDescription").text("iOS Overview")
                 break;
             case "Android":
                 $("#leftProjectName").text("Android App #1");
                 $("#centerProjectName").text("Android App #2");
                 $("#rightProjectName").text("Android Overview");
 
+                $("#leftPic").attr("src", "img/left/android.png");
+                $("#centerPic").attr("src", "img/center/android2.png");
+                $("#rightPic").attr("src", "img/right/androidstudio.png");
+
+                $("#leftPicLink").attr("href", "https://play.google.com/store/apps/details?id=com.redcritter.rcandroid")
+                $("#leftDescription").attr("href", "https://play.google.com/store/apps/details?id=com.redcritter.rcandroid")
+                $("#leftDescription").text("View Android App")
+
+                $("#centerPicLink").attr("href", "https://play.google.com/store/apps/details?id=com.redcritter.rcandroidvertical&hl=en_IE")
+                $("#centerDescription").attr("href", "https://play.google.com/store/apps/details?id=com.redcritter.rcandroidvertical&hl=en_IE")
+                $("#centerDescription").text("View Android App")
+
                 $("#rightPicLink").attr("href", "/overview.html#Android")
+                $("#rightDescription").attr("href", "/overview.html#Android")
+                $("#rightDescription").text("Android Overview")
                 break;
             case "Cloud":
                 $("#leftProjectName").text("Amazon AWS Dev");
                 $("#centerProjectName").text("Microsoft Azure Dev");
                 $("#rightProjectName").text("Cloud Overview");
 
+
+                $("#leftPic").attr("src", "img/left/aws.png");
+                $("#centerPic").attr("src", "img/center/azure.jpg");
+                $("#rightPic").attr("src", "img/right/cloud.jpg");
+
+                $("#leftPicLink").attr("href", "/overview.html#Cloud")
+                $("#centerPicLink").attr("href", "/overview.html#Cloud")
                 $("#rightPicLink").attr("href", "/overview.html#Cloud")
                 break;
 
@@ -53,6 +90,12 @@ $(document).ready(function () {
                 $("#centerProjectName").text("GIS Project #2");
                 $("#rightProjectName").text("GIS Overview");
 
+                $("#leftPic").attr("src", "img/left/esri.png");
+                $("#centerPic").attr("src", "img/center/googlemapslogo.png");
+                $("#rightPic").attr("src", "img/right/globe.jpg");
+
+                $("#leftPicLink").attr("href", "/overview.html#GIS")
+                $("#centerPicLink").attr("href", "/overview.html#GIS")
                 $("#rightPicLink").attr("href", "/overview.html#GIS")
                 break;
 
@@ -61,6 +104,12 @@ $(document).ready(function () {
                 $("#centerProjectName").text("Web Project #2");
                 $("#rightProjectName").text("Web Overview");
 
+                $("#leftPic").attr("src", "img/left/web1.jpg");
+                $("#centerPic").attr("src", "img/center/web2.jpg");
+                $("#rightPic").attr("src", "img/right/web3.jpg");
+
+                $("#leftPicLink").attr("href", "/overview.html#Web")
+                $("#centerPicLink").attr("href", "/overview.html#Web")
                 $("#rightPicLink").attr("href", "/overview.html#Web")
                 break;
             case "Certified":
@@ -88,7 +137,7 @@ $(document).ready(function () {
                 $("#rightDescription").text("Click for info")
                 break;
             default:
-                alert(title);
+                
         }
 
     });
