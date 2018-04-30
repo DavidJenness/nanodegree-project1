@@ -11,6 +11,10 @@ $(document).ready(function () {
                 $("#centerProjectName").text("Database Dev");
                 $("#rightProjectName").text("Database Dev");
 
+                $("#leftPic").attr("src", "img/left/sql.png");
+                $("#centerPic").attr("src", "img/center/iOS2.png");
+                $("#rightPic").attr("src", "img/right/xcode.jpg");
+
                 $("#rightPicLink").attr("href", "/overview.html#Database")
 
                 break;
