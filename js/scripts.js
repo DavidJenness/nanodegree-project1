@@ -80,9 +80,19 @@ $(document).ready(function () {
                 $("#centerPic").attr("src", "img/center/azure.jpg");
                 $("#rightPic").attr("src", "img/right/cloud.jpg");
 
+
+
                 $("#leftPicLink").attr("href", "/overview.html#Cloud")
+                $("#leftDescription").attr("href", "/overview.html#Cloud")
+                $("#leftDescription").text("View AWS Project")
+
                 $("#centerPicLink").attr("href", "/overview.html#Cloud")
+                $("#centerDescription").attr("href", "/overview.html#Cloud")
+                $("#centerDescription").text("View Azure Project")
+
                 $("#rightPicLink").attr("href", "/overview.html#Cloud")
+                $("#rightDescription").attr("href", "/overview.html#Cloud")
+                $("#rightDescription").text("Cloud Overview")
                 break;
 
             case "GIS":
@@ -95,8 +105,16 @@ $(document).ready(function () {
                 $("#rightPic").attr("src", "img/right/globe.jpg");
 
                 $("#leftPicLink").attr("href", "/overview.html#GIS")
+                $("#leftDescription").attr("href", "/overview.html#GIS")
+                $("#leftDescription").text("View GIS Project")
+
                 $("#centerPicLink").attr("href", "/overview.html#GIS")
+                $("#centerDescription").attr("href", "/overview.html#GIS")
+                $("#centerDescription").text("View GIS Project")
+
                 $("#rightPicLink").attr("href", "/overview.html#GIS")
+                $("#rightDescription").attr("href", "/overview.html#GIS")
+                $("#rightDescription").text("GIS Overview")
                 break;
 
             case "Web":
@@ -109,8 +127,16 @@ $(document).ready(function () {
                 $("#rightPic").attr("src", "img/right/web3.jpg");
 
                 $("#leftPicLink").attr("href", "/overview.html#Web")
+                $("#leftDescription").attr("href", "/overview.html#Web")
+                $("#leftDescription").text("View Web Project")
+
                 $("#centerPicLink").attr("href", "/overview.html#Web")
+                $("#centerDescription").attr("href", "/overview.html#Web")
+                $("#centerDescription").text("View Web Project")
+
                 $("#rightPicLink").attr("href", "/overview.html#Web")
+                $("#rightDescription").attr("href", "/overview.html#Web")
+                $("#rightDescription").text("View Web Project")
                 break;
             case "Certified":
                 $("#leftProjectName").text("Amazon AWS");
