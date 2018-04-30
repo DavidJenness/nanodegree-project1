@@ -34,7 +34,7 @@ $(document).ready(function () {
                 $("#rightProjectName").text("iOS Overview");
 
                 $("#leftPic").attr("src", "./img/left/ios.png");
-                $("#centerPic").attr("src", "./img/center/iOS2.png");
+                $("#centerPic").attr("src", "./img/center/ios2.png");
                 $("#rightPic").attr("src", "./img/right/xcode.jpg");
 
                 $("#leftPicLink").attr("href", "https://itunes.apple.com/us/app/redcritter/id791210761?mt=8")
@@ -143,9 +143,9 @@ $(document).ready(function () {
                 $("#centerProjectName").text("Microsoft");
                 $("#rightProjectName").text("Certifications Overview");
 
-                $("#leftPic").attr("src", "./img/left/AWS.png");
+                $("#leftPic").attr("src", "./img/left/aws.png");
                 $("#centerPic").attr("src", "./img/center/mcse.gif");
-                $("#rightPic").attr("src", "./img/right/Cert.png");
+                $("#rightPic").attr("src", "./img/right/cert.png");
 
                 $("#leftPicLink").attr("href", "https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=3DNKSDEKCNR1QZGW")
                 $("#leftDescription").attr("href", "https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=3DNKSDEKCNR1QZGW")
@@ -163,7 +163,7 @@ $(document).ready(function () {
                 $("#rightDescription").text("Click for info")
                 break;
             default:
-                
+
         }
 
     });
