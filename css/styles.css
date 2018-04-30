@@ -196,60 +196,50 @@ footer {
 
 @keyframes animationFrames {
     0% {
-        transform: translate(0px, 300px);
+        transform: translate(0px, 120%);
     }
-    50% {
-        transform: translate(0px, -200px);
-    }
+
     100% {
-        transform: translate(0px, -400px);
+        transform: translate(0px, -150%);
     }
 }
 
 @-moz-keyframes animationFrames {
     0% {
-        -moz-transform: translate(0px, 300px);
+        -moz-transform: translate(0px, 120%);
     }
-    50% {
-        -moz-transform: translate(0px, -200px);
-    }
+    
     100% {
-        -moz-transform: translate(0px, -400px);
+        -moz-transform: translate(0px, -150%);
     }
 }
 
 @-webkit-keyframes animationFrames {
     0% {
-        -webkit-transform: translate(0px, 300px);
+        -webkit-transform: translate(0px, 120%);
     }
-    50% {
-        -webkit-transform: translate(0px, -200px);
-    }
+
     100% {
-        -webkit-transform: translate(0px, -400px);
+        -webkit-transform: translate(0px, -150%);
     }
 }
 
 @-o-keyframes animationFrames {
     0% {
-        -o-transform: translate(0px, 300px);
+        -o-transform: translate(0px, 120%);
     }
-    50% {
-        -o-transform: translate(0px, -200px);
-    }
+
     100% {
-        -o-transform: translate(0px, -400px);
+        -o-transform: translate(0px, -150%);
     }
 }
 
 @-ms-keyframes animationFrames {
     0% {
-        -ms-transform: translate(0px, 300px);
+        -ms-transform: translate(0px, 120%);
     }
-    50% {
-        -ms-transform: translate(0px, -200px);
-    }
+
     100% {
-        -ms-transform: translate(0px, -200px);
+        -ms-transform: translate(0px, -150%);
     }
-}
+} 

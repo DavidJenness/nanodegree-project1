@@ -41,7 +41,8 @@
     }
     .skillButtons {
         width: 75px;
-        ;
+        /* animation: none;
+        overflow-y: auto; */
     }
     .skillButton {
         width: 85px;
