@@ -1,31 +1,45 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 div {
     height: 400px;
 }
 
+p {
+    margin: 10px;
+}
+h1 {
+    border: gray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px
+}
 
 #Database {
-    background-color: blue;
+    background-color: white;
 }
 
 #iOS {
-    background-color: red;
+    background-color: antiquewhite;
 }
 
 #Android {
-    background-color: yellow;
+    background-color: white;
 }
 
 #Cloud {
-    background-color: green;
+    background-color: antiquewhite;
 }
 
 #GIS {
-    background-color: teal;
+    background-color: white;
 }
 
 #Web {
-    background-color: orange;
+    background-color: antiquewhite;
 }
 #Certified {
-    background-color: black;
+    background-color: white;
 }
