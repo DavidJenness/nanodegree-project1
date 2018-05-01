@@ -2,6 +2,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-style: italic;
+    color: gray;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.8vw;
+}
+
 h1, h3 {
     color: black;
     margin: 0px;
@@ -95,13 +104,10 @@ footer {
     padding: 5px;
 }
 
-/* Styles for my Animated Header */
-
 .bannerContainer {
     display: flex;
     flex-flow: wrap;
     height: 250px;
-    /* overflow: hidden; */
     justify-content: center;
     background-color: linen;
 }
@@ -117,28 +123,6 @@ footer {
 .leftString {
     float: right;
 }
-
-/* .nameOfSkill {
-    color: red;
-    padding-left: 1%;
-    padding-right: 1%;
-    text-decoration: underline;
-}
-
-.nameOfSkill-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.nameOfSkill:hover .nameOfSkill-content {
-    display: block;
-    background-color: red;
-} */
-
 
 .skillbtn {
     background-color: #4CAF50;
@@ -173,7 +157,7 @@ footer {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
+/* Change color of skills when hovering. */
 
 .skilldropdown-content a:hover {
     background-color: #ddd;
@@ -181,14 +165,13 @@ footer {
     animation: shakePic .5s 1;
 }
 
-/* Show the dropdown menu on hover */
+/* Show the skills list when hovering */
 
 .skilldropdown:hover .skilldropdown-content {
     display: block;
-    
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+/* Modify Hover Color for button*/
 
 .skilldropdown:hover .skillbtn {
     background-color: #3e8e41;
@@ -197,54 +180,6 @@ footer {
 .rightString {
     float: left;
 }
-
-/* .skillButtons {
-    position: relative;
-    top: -50%;
-    height: auto;
-    z-index: 20;
-    width: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-   
-    animation: animationFrames linear 12s;
-    animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    -webkit-animation: animationFrames linear 12s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-transform-origin: 50% 50%;
-    -moz-animation: animationFrames linear 12s;
-    -moz-animation-iteration-count: infinite;
-    -moz-transform-origin: 50% 50%;
-    -o-animation: animationFrames linear 12s;
-    -o-animation-iteration-count: infinite;
-    -o-transform-origin: 50% 50%;
-    -ms-animation: animationFrames linear 12s;
-    -ms-animation-iteration-count: infinite;
-    -ms-transform-origin: 50% 50%;
-}
-
-.skillButtons:hover {
-    animation-play-state: paused;
-}
-
-.skillButton {
-    z-index: 40;
-    color: #0099CC;
-    background: transparent;
-    border: 2px solid #0099CC;
-    border-radius: 6px;
-    font-size: 2vw;
-    padding: 10px;
-    display: block;
-    margin-top: 10px;
-    width: 165px;
-}
-
-.skillButton:hover {
-    background-color: #008CBA;
-    color: white;
-} */
 
 /* Animations */
 

@@ -1,3 +1,5 @@
+/* Smallest Style - Mobile Devices */
+
 @media all and (max-width: 660px) {
     .projectShowcase {
         width: 100%;
@@ -39,19 +41,13 @@
         justify-content: center;
         float: none;
     }
-    /* .skillButtons {
-        width: 75px;
-    }
-    .skillButton {
-        width: 85px;
-        font-size: 14px;
-    } */
     .leftString, .rightString {
         color: Black;
         font-size: 6vw;
     }
-
 }
+
+/* Largest Style */
 
 @media all and (min-width: 1200px) {
     body {
@@ -64,7 +60,4 @@
         max-width: 350px;
         transition: left 5.5s;
     }
-    /* .skillButton {
-        font-size: 34px;
-    } */
 }
