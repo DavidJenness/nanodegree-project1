@@ -30,7 +30,7 @@ $(document).ready(function () {
                 $("#rightDescription").text("Database Overview")
 
                 break;
-            case 'iOS':
+            case "iOS":
                 $("#leftProjectName").text("iOS App #1");
                 $("#centerProjectName").text("iOS App #2");
                 $("#rightProjectName").text("iOS Overview");
