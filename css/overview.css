@@ -9,6 +9,7 @@ div {
 p {
     margin: 10px;
 }
+
 h1 {
     border: gray;
     border-width: 1px;
@@ -40,6 +41,7 @@ h1 {
 #Web {
     background-color: antiquewhite;
 }
+
 #Certified {
     background-color: white;
 }

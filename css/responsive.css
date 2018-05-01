@@ -20,6 +20,7 @@
         margin: 0px;
         padding: 0px;
     }
+    /* Since the logo has my name, hide the text */
     .nametag h1 {
         display: none;
     }
@@ -58,6 +59,15 @@
     .projectPic img {
         height: auto;
         max-width: 350px;
-        transition: left 5.5s;
+    }
+    /* Make sure fonts don't overflow when really large */
+    .leftString, .rightString, .skillbtn {
+        font-size: 80px;
+    }
+    .skilldropdown-content {
+        font-size: 24px;
+    }
+    p {
+        font-size: 30px;
     }
 }
