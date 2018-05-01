@@ -12,7 +12,7 @@ part of this repository.
 I wanted to add a couple of features including:
 
 1. A memu that would highlight different projects based on subject matter.
-2. Social links to LinkedIn, Twitter, and Github
+2. Social links to LinkedIn, Twitter, and GitHub
 3. Some minor animations on the projects when you hover over them.
 4. The site is responsive and works on a small, medium, and large screen width 
 

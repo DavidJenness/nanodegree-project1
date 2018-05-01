@@ -39,19 +39,18 @@
         justify-content: center;
         float: none;
     }
-    .skillButtons {
+    /* .skillButtons {
         width: 75px;
-        /* animation: none;
-        overflow-y: auto; */
     }
     .skillButton {
         width: 85px;
         font-size: 14px;
-    }
+    } */
     .leftString, .rightString {
         color: Black;
         font-size: 6vw;
     }
+
 }
 
 @media all and (min-width: 1200px) {
@@ -65,7 +64,7 @@
         max-width: 350px;
         transition: left 5.5s;
     }
-    .skillButton {
+    /* .skillButton {
         font-size: 34px;
-    }
+    } */
 }
