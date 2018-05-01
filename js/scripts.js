@@ -1,8 +1,6 @@
-
-
 $(document).ready(function () {
 
-    $(".skillButton").click(function () {
+    $(".skillLink").click(function () {
         var title = $(this).text().trim();
 
         switch (title) {
@@ -14,6 +12,10 @@ $(document).ready(function () {
                 $("#leftPic").attr("src", "./img/left/sql.png");
                 $("#centerPic").attr("src", "./img/center/database2.png");
                 $("#rightPic").attr("src", "./img/right/database3.jpg");
+
+                $("#leftPic").attr("alt", "SQL Server");
+                $("#centerPic").attr("alt", "Microsoft Access");
+                $("#rightPic").attr("alt", "Database Overview");
 
                 $("#leftPicLink").attr("href", "./overview.html#Database")
                 $("#leftDescription").attr("href", "./overview.html#Database")
@@ -37,6 +39,10 @@ $(document).ready(function () {
                 $("#centerPic").attr("src", "./img/center/ios2.png");
                 $("#rightPic").attr("src", "./img/right/xcode.jpg");
 
+                $("#leftPic").attr("alt", "iOS App #1");
+                $("#centerPic").attr("alt", "iOS App #2");
+                $("#rightPic").attr("alt", "iOS Overview");
+
                 $("#leftPicLink").attr("href", "https://itunes.apple.com/us/app/redcritter/id791210761?mt=8")
                 $("#leftDescription").attr("href", "https://itunes.apple.com/us/app/redcritter/id791210761?mt=8")
                 $("#leftDescription").text("View iOS App")
@@ -58,6 +64,10 @@ $(document).ready(function () {
                 $("#centerPic").attr("src", "./img/center/android2.png");
                 $("#rightPic").attr("src", "./img/right/androidstudio.png");
 
+                $("#leftPic").attr("alt", "Android App #1");
+                $("#centerPic").attr("alt", "Android App #2");
+                $("#rightPic").attr("alt", "Android Overview");
+
                 $("#leftPicLink").attr("href", "https://play.google.com/store/apps/details?id=com.redcritter.rcandroid")
                 $("#leftDescription").attr("href", "https://play.google.com/store/apps/details?id=com.redcritter.rcandroid")
                 $("#leftDescription").text("View Android App")
@@ -75,12 +85,13 @@ $(document).ready(function () {
                 $("#centerProjectName").text("Microsoft Azure Dev");
                 $("#rightProjectName").text("Cloud Overview");
 
-
                 $("#leftPic").attr("src", "./img/left/aws.png");
                 $("#centerPic").attr("src", "./img/center/azure.jpg");
                 $("#rightPic").attr("src", "./img/right/cloud.jpg");
 
-
+                $("#leftPic").attr("alt", "Amazon AWS Dev");
+                $("#centerPic").attr("alt", "Microsoft Azure Dev");
+                $("#rightPic").attr("alt", "Cloud Overview");
 
                 $("#leftPicLink").attr("href", "./overview.html#Cloud")
                 $("#leftDescription").attr("href", "./overview.html#Cloud")
@@ -104,6 +115,10 @@ $(document).ready(function () {
                 $("#centerPic").attr("src", "./img/center/googlemapslogo.png");
                 $("#rightPic").attr("src", "./img/right/globe.jpg");
 
+                $("#leftPic").attr("alt", "GIS Project #1");
+                $("#centerPic").attr("alt", "GIS Project #2");
+                $("#rightPic").attr("alt", "GIS Overview");
+
                 $("#leftPicLink").attr("href", "./overview.html#GIS")
                 $("#leftDescription").attr("href", "./overview.html#GIS")
                 $("#leftDescription").text("View GIS Project")
@@ -126,6 +141,10 @@ $(document).ready(function () {
                 $("#centerPic").attr("src", "./img/center/web2.jpg");
                 $("#rightPic").attr("src", "./img/right/web3.jpg");
 
+                $("#leftPic").attr("alt", "Web Project #1");
+                $("#centerPic").attr("alt", "Web Project #2");
+                $("#rightPic").attr("alt", "Web Overview");
+
                 $("#leftPicLink").attr("href", "./overview.html#Web")
                 $("#leftDescription").attr("href", "./overview.html#Web")
                 $("#leftDescription").text("View Web Project")
@@ -147,6 +166,10 @@ $(document).ready(function () {
                 $("#centerPic").attr("src", "./img/center/mcse.gif");
                 $("#rightPic").attr("src", "./img/right/cert.png");
 
+                $("#leftPic").attr("alt", "Amazon AWS");
+                $("#centerPic").attr("alt", "Microsoft");
+                $("#rightPic").attr("alt", "Certifications Overview");
+
                 $("#leftPicLink").attr("href", "https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=3DNKSDEKCNR1QZGW")
                 $("#leftDescription").attr("href", "https://www.certmetrics.com/amazon/public/transcript.aspx?transcript=3DNKSDEKCNR1QZGW")
                 $("#leftDescription").text("View AWS Transcript")
@@ -163,9 +186,6 @@ $(document).ready(function () {
                 $("#rightDescription").text("Click for info")
                 break;
             default:
-
         }
-
     });
-
 });
