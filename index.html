@@ -6,8 +6,6 @@
     <title>Portfolio for David Jenness</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nanum%20Gothic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Antic" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -22,13 +20,13 @@
             <h1>David Jenness</h1>
             <h3>Developer</h3>
             <div class="socialMedia">
-                <a class="linkedin" href="https://www.linkedin.com/in/davidjenness">
+                <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/davidjenness">
                     <img src="img/linkedin.png" alt="LinkedIn">
                 </a>
-                <a class="github" href="https://github.com/DavidJenness">
+                <a class="github" target="_blank" href="https://github.com/DavidJenness">
                     <img src="img/github.png" alt="GitHub">
                 </a>
-                <a class="twitter" href="https://twitter.com/David4FSU">
+                <a class="twitter" target="_blank" href="https://twitter.com/David4FSU">
                     <img src="img/twitter.png" alt="Twitter">
                 </a>
             </div>
@@ -87,6 +85,10 @@
             <a class="projectDescription" id="rightDescription" href="./overview.html#Certified">Certification Overview</a>
         </div>
     </footer>
+
+    <!-- Moved based on recommendation during submission to avoid render-blocking JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
