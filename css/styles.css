@@ -95,7 +95,7 @@ footer {
 .socialMedia {
     display: flex;
     flex-wrap: wrap;
-    float: right;
+    justify-content: flex-end;
 }
 
 .socialMedia img {
@@ -118,10 +118,6 @@ footer {
     font-size: 5vw;
     position: relative;
     top: 40%;
-}
-
-.leftString {
-    float: right;
 }
 
 .skillbtn {
@@ -175,10 +171,6 @@ footer {
 
 .skilldropdown:hover .skillbtn {
     background-color: #3e8e41;
-}
-
-.rightString {
-    float: left;
 }
 
 /* Animations */
