@@ -11,7 +11,8 @@ p {
     font-size: 1.8vw;
 }
 
-h1, h3 {
+h1,
+h3 {
     color: black;
     margin: 0px;
 }
@@ -112,7 +113,9 @@ footer {
     background-color: linen;
 }
 
-.leftString, .rightString, .nameOfSkill {
+.leftString,
+.rightString,
+.nameOfSkill {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: Black;
     font-size: 5vw;

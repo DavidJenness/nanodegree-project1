@@ -41,7 +41,8 @@
     .socialMedia {
         justify-content: center;
     }
-    .leftString, .rightString {
+    .leftString,
+    .rightString {
         color: Black;
         font-size: 6vw;
     }
